@@ -1,0 +1,5 @@
+Data/
+Model_files/
+logs/
+*.
+!.gitignore
