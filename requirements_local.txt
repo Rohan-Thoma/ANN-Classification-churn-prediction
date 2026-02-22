@@ -1,5 +1,4 @@
-tensorflow
-protobuf==3.20.3
+tensorflow[and-cuda]
 pandas
 numpy
 tensorboard
