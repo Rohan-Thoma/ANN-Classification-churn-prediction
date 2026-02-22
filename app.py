@@ -6,16 +6,16 @@ import pandas as pd
 import pickle
 
 # Load the trained model
-model = tf.keras.models.load_model('2-ANN-Classification/Model_files/model.h5')
+model = tf.keras.models.load_model('Model_files/model.h5')
 
 # Load the encoders and scaler
-with open('2-ANN-Classification/Model_files/label_encoder_gender.pkl', 'rb') as file:
+with open('Model_files/label_encoder_gender.pkl', 'rb') as file:
     label_encoder_gender = pickle.load(file)
 
-with open('2-ANN-Classification/Model_files/onehot_encoder_geo.pkl', 'rb') as file:
+with open('Model_files/onehot_encoder_geo.pkl', 'rb') as file:
     onehot_encoder_geo = pickle.load(file)
 
-with open('2-ANN-Classification/Model_files/scaler.pkl', 'rb') as file:
+with open('Model_files/scaler.pkl', 'rb') as file:
     scaler = pickle.load(file)
 
 

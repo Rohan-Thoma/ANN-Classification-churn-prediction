@@ -1,5 +1,4 @@
-Data/
-Model_files/
 logs/
+regressionlogs/
 *.
 !.gitignore

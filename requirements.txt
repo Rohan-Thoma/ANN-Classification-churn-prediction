@@ -1,8 +1,13 @@
-tensorflow==2.15.0
-pandas 
-numpy 
-scikit-learn
+tensorflow[and-cuda]
+pandas
+numpy
 tensorboard
 matplotlib
 streamlit
 scikeras
+nltk
+tk
+svgling
+scikit-learn
+gensim
+keras
